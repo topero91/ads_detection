@@ -2,10 +2,9 @@
 
 usage: main.py [-h] [--input_file INPUT_FILE] [--output_file OUTPUT_FILE]
 
-Test task solution. For the program to work correctly, you need to enter a file with with one sentence per line. The output is another file with one predicted       
-label per line.
+Test task solution. For the program to work correctly, you need to enter a file with with one sentence per line. The output is another file with one predicted label per line.
 
-optional arguments:
+### arguments:
 
   -h, --help            show this help message and exit
   
