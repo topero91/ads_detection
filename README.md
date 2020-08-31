@@ -6,11 +6,16 @@ Test task solution. For the program to work correctly, you need to enter a file 
 label per line.
 
 optional arguments:
+
   -h, --help            show this help message and exit
+  
   --input_file INPUT_FILE
                         path to input file in format csv
+                        
   --output_file OUTPUT_FILE
                         path to output file
+
+
 
 For the script to work correctly, you still need to add the binary to the models folder, link to the binary:
 https://drive.google.com/file/d/1k19wemFn3POS1iJCjVENhISwmD3n9uo_/view?usp=sharing 
