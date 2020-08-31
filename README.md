@@ -1,5 +1,17 @@
 # Ads Detection Project
 
+usage: main.py [-h] [--input_file INPUT_FILE] [--output_file OUTPUT_FILE]
+
+Test task solution. For the program to work correctly, you need to enter a file with with one sentence per line. The output is another file with one predicted       
+label per line.
+
+optional arguments:
+  -h, --help            show this help message and exit
+  --input_file INPUT_FILE
+                        path to input file in format csv
+  --output_file OUTPUT_FILE
+                        path to output file
+
 For the script to work correctly, you still need to add the binary to the models folder, link to the binary:
 https://drive.google.com/file/d/1k19wemFn3POS1iJCjVENhISwmD3n9uo_/view?usp=sharing 
 The main idea that I implemented is to divide all the sentences in the text into 2 classes-advertising and the rest. After that, I did fine-tuning of the existing Bert model "bert-base-uncased".
